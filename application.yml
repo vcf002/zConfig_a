@@ -9,14 +9,14 @@ spring:
    profiles: dev
    application:
       name: provide
-   foo: aaa-dev
+foo: aaa-dev
       
 ---
 spring:
    profiles: test
    application:
       name: provide-test
-   foo: aaa-test
+foo: aaa-test
 
 
 
