@@ -1,4 +1,22 @@
-profiles: aaa
+
+spring:
+   profiles:
+      active:
+      - dev
+      
+---
+spring:
+   profiles: dev
+   application:
+      name: provide
+   profiles: aaa-dev
+      
+---
+spring:
+   profiles: test
+   application:
+      name: provide-test
+   profiles: aaa-test
 
 
 
